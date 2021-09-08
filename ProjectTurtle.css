@@ -1,0 +1,79 @@
+body, html {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.PI_1 {
+  height: 888px;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.SP, .SP1, .SP2, .TP1, .TP2 {
+  position: relative;
+}
+
+.SI, .SPI1, .SPI2, .TPI1, .TPI2 {
+  width: 100%;
+}
+
+.QF, .SQF1, .SQF2, .TQF1, .TQF2 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.TP {
+  position: relative;
+}
+
+.TI {
+ width: 100%;
+}
+
+.TF {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
