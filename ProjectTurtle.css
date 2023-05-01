@@ -15,65 +15,119 @@ h1 {
   color: white;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
+.navbar {
   overflow: hidden;
   background-color: #333;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
 
-li {
+.navbar a {
   float: left;
-}
-
-li a {
-  display: block;
+  font-size: 16px;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: #111;
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
 
-.SP, .SP1, .SP2, .TP1, .TP2 {
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #333;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.SP1, .SP2, .TP1, .TP2, .GTP1, .HBTP1, .LHTP1 {
   position: relative;
 }
 
-.SI, .SPI1, .SPI2, .TPI1, .TPI2 {
+.SPI1, .SPI2, .TPI1, .TPI2, .GTPI1, .HBTPI1, .LHTPI1 {
   width: 100%;
 }
 
-.QF, .SQF1, .SQF2, .TQF1, .TQF2 {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+.SP, .GTP2, .TP1, .HBTP2, .LHTP2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-bottom: 25px;
 }
 
-.TP {
-  position: relative;
+.SI, .GTPI2, .TPI1, .HBTPI2, .LHTPI2 {
+  width: 50%;
+  margin-left: 135px;
 }
 
-.TI {
- width: 100%;
+.QF, .GTFP1, .TQF1, .HBTFP1, .LHTFP1 {
+  float: right;
+  width: 25%;
+  margin-right: 135px;
 }
 
-.TF {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+.TP, .GTP3, .TP2, .HBTP3, .LHTP3 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding-top: 25px;
+}
+
+.TI, .GTPI3, .TPI2, .HBTPI3, .LHTPI3 {
+  width: 50%;
+  margin-left: 70px;
+}
+
+.TF, .GTFP2, .TQF2, .HBTFP2, .LHTFP2 {
+  float: left;
+  width: 25%;
+  margin-left: 135px;
+}
+
+.GTV {
+  width: 1000px;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+
+footer {
+  height: 50px;
+  background-color: #333;
+  width: 98.5%;
+  padding: 10px;
+  padding-bottom: 20px;
+  text-align: center;
 }

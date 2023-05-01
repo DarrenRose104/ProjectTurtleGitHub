@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -14,11 +15,20 @@
       <h1>Green Turtle</h1>
     </div>
 
-    <ul class = navbar>
-      <li><a href = "ProjectTurtle.html">Home</a></li>
-      <li><a href = "Species.html">Species</a></li>
-      <li><a href = "Threats.html">Threats</a></li>
-    </ul>
+    <div class="navbar">
+      <a href="ProjectTurtle.html">Home</a>
+      <a href="Threats.html">Threats</a>
+      <div class="dropdown">
+        <button class="dropbtn">Species
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="GreenTurtle.html">Green Turtle</a>
+          <a href="HawksbillTurtle.html">Hawksbill Turtle</a>
+          <a href="LoggerheadTurtle.html">Loggerhead Turtle</a>
+        </div>
+      </div>
+    </div>
 
     <!--Class is Green Turtle Panel 2-->
     <div class = GTP2>
@@ -56,6 +66,15 @@
           system.<p>
       </div>
     </div>
+
+    <video class = "GTV" controls>
+      <source src = "TurtVid1.mp4" type = "video/mp4">
+    </video>
+
+    <footer>
+      <p>Github account</p>
+      <p><a href = "https://github.com/DarrenRose104">DarrenRose104</a></p>
+    </footer>
 
   </body>
 </html>
