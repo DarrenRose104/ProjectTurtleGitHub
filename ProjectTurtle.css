@@ -3,6 +3,10 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.HP1 {
+
+}
+
 .PI_1 {
   height: 888px;
   width: 100%;
@@ -83,35 +87,35 @@ h1 {
   width: 100%;
 }
 
-.SP, .GTP2, .TP1, .HBTP2, .LHTP2 {
+.SP, .GTP2, .TP1, .HBTP2, .LHTP2, .GTP4, .GTP6 {
   margin-top: 100px;
   margin-bottom: 50px;
   padding-bottom: 25px;
 }
 
-.SI, .GTPI2, .TPI1, .HBTPI2, .LHTPI2 {
+.SI, .GTPI2, .TPI1, .HBTPI2, .LHTPI2, .GTPI4, .GTPI6 {
   width: 50%;
   margin-left: 135px;
 }
 
-.QF, .GTFP1, .TQF1, .HBTFP1, .LHTFP1 {
+.QF, .GTFP1, .TQF1, .HBTFP1, .LHTFP1, .GTFP3, .GTFP5 {
   float: right;
   width: 25%;
   margin-right: 135px;
 }
 
-.TP, .GTP3, .TP2, .HBTP3, .LHTP3 {
+.TP, .GTP3, .TP2, .HBTP3, .LHTP3, .GTP5 {
   margin-top: 50px;
   margin-bottom: 100px;
   padding-top: 25px;
 }
 
-.TI, .GTPI3, .TPI2, .HBTPI3, .LHTPI3 {
+.TI, .GTPI3, .TPI2, .HBTPI3, .LHTPI3, .GTPI5 {
   width: 50%;
   margin-left: 70px;
 }
 
-.TF, .GTFP2, .TQF2, .HBTFP2, .LHTFP2 {
+.TF, .GTFP2, .TQF2, .HBTFP2, .LHTFP2, .GTFP4 {
   float: left;
   width: 25%;
   margin-left: 135px;
@@ -130,4 +134,5 @@ footer {
   padding: 10px;
   padding-bottom: 20px;
   text-align: center;
+  color: white;
 }
