@@ -35,3 +35,28 @@ html {
   font-weight: 900;
   mix-blend-mode: multiply;
 }
+
+hr {
+
+}
+
+.TP {
+  margin: 50px auto;
+}
+
+.TP video {
+  height: 32%;
+  width: 32%;
+  float: left;
+  padding: 15px;
+  padding-left: 100px;
+}
+
+.TPF {
+  padding-top: 70px;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+}
